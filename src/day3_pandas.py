@@ -1,41 +1,23 @@
 import pandas as pd
 
-# Read CSV
 df = pd.read_csv("data/tickets.csv")
 
-# Display all data
+print("=== ALL TICKETS ===")
 print(df)
+print("\nShape:", df.shape)
+print("Columns:", df.columns.tolist())
 
-# First 5 rows
-print(df.head())
+print("\n=== FIRST 3 ===")
+print(df.head(3))
 
-# Dataset size
-print(df.shape)
+print("\n=== P1 TICKETS ===")
+print(df[df["priority"] == "P1"])
 
-# Column names
-print(df.columns)
+print("\n=== RESOLVED ===")
+print(df[df["status"] == "Resolved"])
 
-# One column
-print(df["priority"])
+print("\n=== OPEN ===")
+print(df[df["status"] == "Open"])
 
-# Multiple columns
-print(df[["ticket_id", "priority", "status"]])
-
-# P1 tickets
-p1_tickets = df[df["priority"] == "P1"]
-print(p1_tickets)
-
-# Resolved tickets
-resolved = df[df["status"] == "Resolved"]
-print(resolved)
-
-# Open tickets
-open_tickets = df[df["status"] == "Open"]
-print(open_tickets)
-
-# P2 and Resolved
-result = df[
-    (df["priority"] == "P2") &
-    (df["status"] == "Resolved")
-]
-print(result)
+print("\n=== P2 AND RESOLVED ===")
+print(df[(df["priority"] == "P2") & (df["status"] == "Resolved")])
