@@ -1,0 +1,6 @@
+ticket_id,created_at,first_response_at,resolved_at,priority,category,assignee_id,status
+T001,2026-09-01 09:00,2026-09-01 09:30,2026-09-01 16:00,P1,Network,A101,Resolved
+T002,2026-09-01 10:00,2026-09-01 12:00,2026-09-02 08:00,P2,Hardware,A102,Resolved
+T003,2026-09-01 11:00,2026-09-01 18:00,,P3,Software,A103,Open
+T004,2026-09-01 12:00,2026-09-01 13:00,2026-09-02 10:00,P4,Password,A101,Resolved
+T005,2026-09-01 13:00,2026-09-01 17:00,,P2,Network,A102,Open
