@@ -28,3 +28,7 @@ print(df[[
     "frt_hours",
     "ttr_hours"
 ]])
+
+# Summary
+print(f"Average FRT: {df['frt_hours'].mean():.2f} hours")
+print(f"Average TTR (resolved only): {df['ttr_hours'].mean():.2f} hours")
