@@ -1,0 +1,11 @@
+ticket_id,created_at,first_response_at,resolved_at,priority,category,assignee_id,status,frt_hours,ttr_hours,frt_target_hours,ttr_target_hours,frt_sla_status,ttr_sla_status,sla_status,current_age_hours,remaining_sla_hours,risk_status,next_action
+T001,2026-09-01 09:00:00,2026-09-01 09:30:00,2026-09-01 16:00:00,P1,Network,A101,Resolved,0.5,7.0,1,8,Met,Met,Met,18,-10,Resolved,No Action
+T002,2026-09-01 10:00:00,2026-09-01 12:00:00,2026-09-02 08:00:00,P2,Hardware,A102,Resolved,2.0,22.0,4,24,Met,Met,Met,34,-10,Resolved,No Action
+T003,2026-09-01 11:00:00,2026-09-01 18:00:00,,P3,Software,A103,Open,7.0,,8,48,Met,Not Available,In Progress,46,2,At Risk,Prioritize
+T004,2026-09-01 12:00:00,2026-09-01 13:00:00,2026-09-02 10:00:00,P4,Password,A101,Resolved,1.0,22.0,24,72,Met,Met,Met,82,-10,Resolved,No Action
+T005,2026-09-01 13:00:00,2026-09-01 17:00:00,,P2,Network,A102,Open,4.0,,4,24,Met,Not Available,In Progress,44,-20,Breached,Escalate
+T006,2026-09-02 09:00:00,2026-09-02 09:20:00,2026-09-02 14:00:00,P1,Software,A103,Resolved,0.3333333333333333,5.0,1,8,Met,Met,Met,18,-10,Resolved,No Action
+T007,2026-09-02 10:00:00,2026-09-02 15:00:00,2026-09-03 12:00:00,P3,Hardware,A104,Resolved,5.0,26.0,8,48,Met,Met,Met,58,-10,Resolved,No Action
+T008,2026-09-02 11:00:00,2026-09-02 11:30:00,2026-09-02 18:00:00,P4,Network,A101,Resolved,0.5,7.0,24,72,Met,Met,Met,82,-10,Resolved,No Action
+T009,2026-09-02 13:00:00,2026-09-02 16:00:00,,P2,Software,A102,Open,3.0,,4,24,Met,Not Available,In Progress,22,2,At Risk,Prioritize
+T010,2026-09-02 14:00:00,2026-09-02 15:00:00,2026-09-03 09:00:00,P3,Password,A104,Resolved,1.0,19.0,8,48,Met,Met,Met,58,-10,Resolved,No Action
