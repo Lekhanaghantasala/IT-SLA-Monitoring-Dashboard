@@ -120,3 +120,6 @@ print(df[[
     "ttr_sla_status",
     "sla_status"
 ]])
+
+df.to_csv("data/tickets_processed.csv", index=False)
+print("Processed dataset saved successfully.")
