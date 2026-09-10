@@ -1,0 +1,11 @@
+ticket_id,created_at,first_response_at,resolved_at,priority,category,assignee_id,status,ttr_target_hours,current_age_hours,risk_status,remaining_sla_hours,next_action
+T001,2026-09-01 09:00:00,2026-09-01 09:30:00,2026-09-01 16:00:00,P1,Network,A101,Resolved,8,48.0,Resolved,-40.0,No Action
+T002,2026-09-01 10:00:00,2026-09-01 12:00:00,2026-09-02 08:00:00,P2,Hardware,A102,Resolved,24,47.0,Resolved,-23.0,No Action
+T003,2026-09-01 11:00:00,2026-09-01 18:00:00,,P3,Software,A103,Open,48,46.0,At Risk,2.0,Prioritize
+T004,2026-09-01 12:00:00,2026-09-01 13:00:00,2026-09-02 10:00:00,P4,Password,A101,Resolved,72,45.0,Resolved,27.0,No Action
+T005,2026-09-01 13:00:00,2026-09-01 17:00:00,,P2,Network,A102,Open,24,44.0,Breached,-20.0,Escalate
+T006,2026-09-02 09:00:00,2026-09-02 09:20:00,2026-09-02 14:00:00,P1,Software,A103,Resolved,8,24.0,Resolved,-16.0,No Action
+T007,2026-09-02 10:00:00,2026-09-02 15:00:00,2026-09-03 12:00:00,P3,Hardware,A104,Resolved,48,23.0,Resolved,25.0,No Action
+T008,2026-09-02 11:00:00,2026-09-02 11:30:00,2026-09-02 18:00:00,P4,Network,A101,Resolved,72,22.0,Resolved,50.0,No Action
+T009,2026-09-02 13:00:00,2026-09-02 16:00:00,,P2,Software,A102,Open,24,20.0,At Risk,4.0,Prioritize
+T010,2026-09-02 14:00:00,2026-09-02 15:00:00,2026-09-03 09:00:00,P3,Password,A104,Resolved,48,19.0,Resolved,29.0,No Action
